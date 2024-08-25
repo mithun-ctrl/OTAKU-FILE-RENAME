@@ -40,7 +40,7 @@ class Config(object):
     MAX_CONCURRENT_TRANSMISSIONS = int(os.environ.get("MAX_CONCURRENT_TRANSMISSIONS", "2")) # Set the maximum amount of concurrent transmissions (uploads & downloads).
     
     # wes response configuration     
-    WEB_SUPPORT = bool(os.environ.get("WEB_SUPPORT", "False"))
+    WEB_SUPPORT = bool(os.environ.get("WEB_SUPPORT", "True"))
 
 
 
