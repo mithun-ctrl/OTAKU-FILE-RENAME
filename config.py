@@ -57,7 +57,7 @@ class Txt(object):
  
 📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>🇵‌🇾‌ʀᴏɢʀᴀᴍ</a>
 
-✏️ LANGUAGE: <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>\n
+✏️ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>\n
  """
 
     HELP_TXT = """
