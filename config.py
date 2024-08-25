@@ -50,12 +50,15 @@ class Txt(object):
 ᴛʜɪs ᴀɴᴅ ᴀᴅᴠᴀɴᴄᴇᴅ ᴇxʟᴄᴜsɪᴠᴇ ғᴏʀ ᴏᴛᴀᴋᴜ ᴀᴅᴍɪɴ's ᴜsᴇᴅ ғᴏʀ ʀᴇɴᴀᴍɪɴɢ ғɪʟᴇs ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ ᴛʜɪɴɢ's
 ʙᴏᴛ ᴄʀᴇᴀᴛᴏʀ : @mithun_naam_toh_suna_hoga 💞</b>"""
 
-    ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/mithun_naam_toh_suna_hoga>мιтнυи</a> 
-├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>🇵‌🇾‌ʀᴏɢʀᴀᴍ</a>
-├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>     
-╰───────────────⍟ """
+    ABOUT_TXT = """<b>
+🤖 𝙽𝙰𝙼𝙴 : {}
+
+🖥️ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 : <a href=https://t.me/mithun_naam_toh_suna_hoga>мιтнυи</a>
+ 
+📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>🇵‌🇾‌ʀᴏɢʀᴀᴍ</a>
+
+✏️ LANGUAGE: <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 𝟹</a>\n
+ """
 
     HELP_TXT = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b>
