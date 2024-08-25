@@ -14,15 +14,15 @@
 
 🖍️ Bot Commands :-
 
-start - Bot Alive Cheking
-view_thumb - View Thumbnail
-del_thumb - Delete Thumbnail
-set_caption - Set A Custom Caption
-see_caption - See Your Custom Caption
-del_caption - Delete Custom Caption
-restart - To Rrstart The Bot (Admin Only)
-status - Check Bot Status (Admin Only)
-broadcast - Send Message To All Users (Admin Only)
+start - Bot Alive Cheking<br>
+view_thumb - View Thumbnail<br>
+del_thumb - Delete Thumbnail<br>
+set_caption - Set A Custom Caption<br>
+see_caption - See Your Custom Caption<br>
+del_caption - Delete Custom Caption<br>
+restart - To Rrstart The Bot (Admin Only)<br>
+status - Check Bot Status (Admin Only)<br>
+broadcast - Send Message To All Users (Admin Only)<br>
 
 </b>
 </details>
