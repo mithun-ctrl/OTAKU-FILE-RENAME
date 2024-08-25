@@ -30,8 +30,8 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton('🎛️ 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
+        InlineKeyboardButton('🛠️ 𝙷𝙴𝙻𝙿', callback_data='help')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -47,8 +47,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('🎛️ 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
+                InlineKeyboardButton('🛠️ 𝙷𝙴𝙻𝙿', callback_data='help')
             ]])
         )
     elif data == "help":
@@ -56,8 +56,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.HELP_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
+                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
             ]])            
         )
     elif data == "about":
@@ -65,8 +65,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
+                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
             ]])            
         )
     elif data == "dev":
@@ -74,8 +74,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.DEV_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
+                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
             ]])          
         )
     elif data == "close":
